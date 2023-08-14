@@ -104,7 +104,7 @@ header {
 .menu_btn {
     position: absolute;
     top: 24px;
-    right: 10px;
+    right: 15px;
 }
 
 #check:checked ~ .burger_menu .menu_btn {
@@ -115,7 +115,7 @@ header {
     display: block;
     position: fixed;
     top: 24px;
-    right: 10px;
+    right: 15px;
     z-index: 4;
 }
 
