@@ -1,0 +1,131 @@
+.features_section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_section_name {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #212353;
+    font-weight: 700;
+}
+
+.features_section_text {
+    color: #4B5D68;
+    line-height: 24.8px;
+    font-size: 18px;
+}
+
+.features_section_box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.features_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.features_item_img {
+    width: 100%;
+}
+
+.features_item_title {
+    color: #212353;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.features_item_text {
+    font-size: 16px;
+    color: #4B5D68;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.features_item_link {
+    text-decoration: none;
+    color: #212353;
+    position: relative;
+}
+
+.features_item_link:hover {
+    color: #9C69E2;
+    font-weight: 600;
+}
+
+.features_item_link:after {
+    content: "";
+    position: absolute;
+    background: url("../images/arrow.svg") center/cover no-repeat;
+    top: 2px;
+    right: -42px;
+    width: 24px;
+    height: 14px;
+}
+
+@media screen and (min-width: 500px) {
+
+    .features_item {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .features_item_img {
+        width: 40%;
+    }
+
+    .features_item_img img {
+        width: 100%;
+    }
+
+    .features_item_content {
+        width: 55%;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .features_section_name {
+        margin-top: 40px;
+        font-size: 36px;
+    }
+
+    .features_section_text {
+        width: 640px;
+        text-align: center;
+        margin: 20px 0;
+        margin-bottom: 60px;
+    }
+
+    .features_item {
+        width: 47%;
+        
+    }
+
+    .features_item_content {
+        display: flex;
+        flex-direction: column;
+        height: 235px;
+    }
+
+    .features_section_text {
+        line-height: 28.8px;
+    }
+
+    .features_item_link {
+        width: fit-content;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+}

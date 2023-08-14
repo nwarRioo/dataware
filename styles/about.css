@@ -1,5 +1,5 @@
 .about_section {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,6 +12,7 @@
 
 .about_section_left img {
     width: 100%;
+    line-height: 0;
 }
 
 .about_section_right h2 {
